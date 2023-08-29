@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tabelas.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="Tabela1"> Roupas </h3>
+    <div id="Tabela1">
+    <table border="2">
+        <thead>
+            <tr align="center">
+                <th> Produto </th>
+                <th> Preço </th>
+                <th> Unidade </th>
+                <th> Fábrica</th>
+                <th> Disponibilidade </th>
+                <th> Tempo </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th align="left"> Camiseta </th>
+                <th rowspan="2" > R$ 50.00 </th>
+                <th > 60 </th>
+                <th rowspan="2"> SP </th>
+                <th colspan="4" rowspan="4">48 Horas</th>
+                <!---colspan junta colunas e rowspan junta linhas> </!--->
+            </tr>
+            <tr>
+                <th> Bermuda </th>
+                <th> 70 </th>
+            </tr>
+            <tr>
+                <th align="left"> Meia </th>
+                <th> R$ 20.00 </th>
+                <th> 90 </th>
+                <th rowspan="2"> ES </th>
+            </tr>
+            <tr>
+                <th align="left"> Boné </th>
+                <th> R$ 30.00 </th>
+                <th> 80 </th>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <table border="2">
+        <!--adiciona bordas na tabela--> 
+        <h3 id="Tabela2"> Calçados </h3>
+        <thead>
+            <tr align="center">
+                <th> Produto </th>
+                <th> Preço   </th>
+                <th> Unidade </th>
+                <th> Fábrica </th>
+                <th> Disponibilidade </th>
+                <th> Tempo </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th align="left"> All Star  </th>
+                <th> 100.00 R$ </th>
+                <th>   150     </th>
+                <th rowspan="3">   RJ      </th>
+                <th colspan="3" rowspan="3"> 24 Horas </th>
+                
+            </tr>
+            <tr>
+                <th align="left"> Nike </th>
+                <th> 200.00 R$ </th>
+                <th> 250       </th>
+                
+            </tr>
+            <tr>
+                <th align="left"> Adidas </th>
+                <th> 300.00 R$ </th>
+                <th> 200       </th>
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
